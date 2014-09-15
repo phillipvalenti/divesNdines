@@ -1,0 +1,229 @@
+/*Positioning*/
+
+.center {
+	margin: 0 auto;
+	width:85%;
+}
+
+.center_item {
+	text-align: center;
+}
+.center_pic {
+	margin: 0 auto;
+	width:100;
+}
+.left {
+	text-align: left;
+	padding-left: 1em;
+}
+
+.right {
+	text-align: right;
+	padding-right: 1em;
+}
+#hotDog {
+	padding-top: 1em;
+}
+
+/*Element Styling*/
+
+body {
+	background: url("http://www.psdgraphics.com/file/radial-stainless-steel.jpg") fixed;
+	background-position: center;
+}
+
+header {
+	background: url("http://welovefooditsallweeat.files.wordpress.com/2012/05/diner-pwf-1182.jpg");
+	background-size: 100%;
+	background-position: center;
+	color: #FFFFEB;
+}
+
+footer p {
+	color: #7F0000;
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	border-color: #7F0000;
+}
+
+input {
+	line-height: 2em;
+}
+
+/*Class & ID*/
+
+.red {
+	background-color: red;
+	color: #FFFFEB;
+}
+
+.light {
+	background-color: #FFFFEB;
+	color: #7F0000;
+}
+
+.button_padding {
+	padding-top: 1em;
+}
+
+.pure-button {
+	color: #FFFFEB;
+	background: red;
+}
+
+.l-box {
+	padding: 1em;
+}
+.l-box_about {
+	padding: 0 1em 1em 1em;
+}
+#myModal {
+	background: #FFFFEB;
+	color: #7F0000;
+}
+#shadow {
+	text-shadow: .1em .1em .1em #5C5C55;
+}
+#Connect a {
+	color: #FFFFEB;
+}
+
+/*Font Styling*/
+
+   /*---For all headers---*/
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] h1, h2, h3, h6 {
+    /* Set your content font stack here: */
+    font-family: 'Yellowtail', cursive, sans-serif;
+}
+
+   /*---For all paragraphs---*/
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] a, p, form {
+    /* Set your content font stack here: */
+    font-family: 'Open Sans', sans-serif;	
+}
+
+h1 {
+	font-size: 3em;
+	vertical-align: middle;
+}
+
+h6 a {
+	color: #7F0000;
+}
+
+/*Menu Styling*/
+
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li .pure-menu-children {
+background: red;
+}
+
+.pure-menu a,
+.pure-menu .pure-menu-can-have-children > li:after {
+    color: #FFFFEB;
+}
+
+.pure-menu .pure-menu-can-have-children > li:hover:after {
+    color: #FF3333;
+}
+
+.pure-menu li a:hover,
+.pure-menu li a:focus {
+    background: #FF4C4C;
+}
+
+.pure-menu .pure-menu-heading {
+color: #FFFFEB;
+}
+
+.pure-menu .pure-menu-selected a {
+color: #7F2626;
+}
+
+/*For All Screens bigger =<80em*/
+
+@media only screen and (min-width: 72em) {
+
+    h1 { 
+	   font-size: 6em; 
+    }
+	
+	h2 {
+		font-size: 3em;
+	}
+	
+	h3 {
+		font-size: 2em;
+	}
+	
+	p {
+		font-size: 1.5em;
+	}
+	
+	.pure-menu {
+		font-size: 1.5em;
+	}
+	
+	header a {
+		font-size: 2em;
+	}
+	
+	#Connect a {
+		font-size: 2em;
+	}
+	
+	.pure-form {
+		font-size: 1.5em;
+	}
+
+}
+
+/*For All Screens bigger =<96em*/
+
+@media only screen and (min-width: 96em) {
+
+    h1 { 
+	   font-size: 7em; 
+    }
+	
+	h2 {
+		font-size: 5em;
+	}
+	
+	h3 {
+		font-size: 3.5em;
+	}
+	
+	p {
+		font-size: 2em;
+	}
+	
+	.pure-menu {
+		font-size: 2em;
+	}
+	
+	header a {
+		font-size: 4em;
+	}
+	
+	#Connect a {
+		font-size: 4em;
+	}
+	
+	.pure-form {
+		font-size: 2em;
+	}
+	.l-box {
+	padding: 2em;
+	}
+
+}
+
